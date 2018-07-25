@@ -1,0 +1,16 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+   int a , n, s=0;
+cout<<"enter the number"<<endl;
+cin>>n;
+while(n>0)
+{
+   a=n%10;
+n=n/10;
+s=s+a;
+}
+cout<<"the sum of numbers is"<<s;
+getch();
+}
